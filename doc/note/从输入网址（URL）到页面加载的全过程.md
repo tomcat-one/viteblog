@@ -7,7 +7,7 @@
 在浏览器中输入 URL（也就是网址）（URL 是 Uniform Resource Locator 的缩写，即统一资源定位系统，也就是我们通常所说的网址）
 
 **URL 由哪些部分构成？**
-![这是图片](../img//FBCAD8FA-724F-4464-8E28-84A628820B32.png "Magic Gardens")
+![这是图片](../public//FBCAD8FA-724F-4464-8E28-84A628820B32.png "Magic Gardens")
 
 - 协议：一种告诉浏览器或者设备如何访问资源的方法，现在主要能见到的协议有 http，https，ftp，file 等。
 - http：通过 HTTP 访问资源。格式 http://，访问 Web 服务器，请求和响应均为明文形式，不安全。
@@ -28,7 +28,7 @@
 - URN(Uniform Resource Name) 统一资源名称，简单来说，就是 URI 是抽象的定义，不管用什么方法表示，只要能定位一个资源，就叫 URI。
 - 本来设想的的使用两种方法定位：1，URL，用地址定位；2，URN 用名称定位。
 
-![这是图片](../img/2.png "Magic Gardens")
+![这是图片](../public/2.png "Magic Gardens")
 
 - 举个例子：去村子找个具体的人（URI），如果用地址：某村多少号房子第几间房的主人 就是 URL， 如果用身份证号+名字 去找就是 URN 了。
 - 原来 uri 包括 url 和 urn，后来 urn 没流行起来，导致几乎目前所有的 uri 都是 url。
@@ -39,4 +39,4 @@ DNS（Domain Name System）域名系统，是互联网的一项核心服务，�
 
 ### DNS 域名查询顺序
 
-![这是图片](../img/3.png "Magic Gardens")
+![这是图片](../public/3.png "Magic Gardens")

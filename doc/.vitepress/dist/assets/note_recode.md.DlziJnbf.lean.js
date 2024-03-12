@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,m as a}from"./chunks/framework.DyMc37k2.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/recode.md","filePath":"note/recode.md"}'),r={name:"note/recode.md"},c=a("p",null,"重构",-1),n=[c];function s(d,_,i,p,l,m){return o(),t("div",null,n)}const u=e(r,[["render",s]]);export{h as __pageData,u as default};
