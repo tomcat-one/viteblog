@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,m as o}from"./chunks/framework.DyMc37k2.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/css3.md","filePath":"note/css3.md"}'),a={name:"note/css3.md"},c=o("p",null,"css2",-1),n=[c];function r(_,d,i,p,l,m){return s(),t("div",null,n)}const u=e(a,[["render",r]]);export{h as __pageData,u as default};

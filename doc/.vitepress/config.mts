@@ -5,8 +5,7 @@ export default defineConfig({
   description: "一个人博客",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-       { text: '前端笔记1', link: '/markdown-examples' },
+      { text: '首页', link: '/' },
       {
         text: '前端笔记',
         items: [
@@ -23,21 +22,25 @@ export default defineConfig({
         ]
       },
       { text: '规范化', link: '/note/recode' },
-      { text: '重构：扒屎日记', link: '/note/specification' }
+      { text: '重构：扒屎日记', link: '/note/为什么要扒屎.md' }
     ],
 
     sidebar: [
-/*       {
-        text: 'Examples',
+      {
+        text: '重构：扒屎日记',
         items: [
-          { text: 'Markdown Examples', link: '/' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '1.为什么要扒屎', link: '/note/为什么要扒屎.md' },
+          { text: '2.屎山养成记', link: '/note/屎山养成记.md' },
+          { text: '3.如何当一个好的搅屎棍', link: '/note/如何成为一个好的搅屎棍.md' },
+          { text: '4.构筑去屎体系', link: '/note/构筑去屎体系.md' },
+          { text: '5.实战:教你如何扒屎', link: '/note/教你如何扒屎.md' }
+
         ]
-      } */
+      }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://gitee.com/waywordcode' }
     ]
-  }
+  },
 })

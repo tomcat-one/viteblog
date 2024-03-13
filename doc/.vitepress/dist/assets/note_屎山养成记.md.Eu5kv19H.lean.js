@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.BiaOK9tN.js";const F=JSON.parse('{"title":"屎山养成记","description":"","frontmatter":{},"headers":[],"relativePath":"note/屎山养成记.md","filePath":"note/屎山养成记.md"}'),h={name:"note/屎山养成记.md"},p=n("",233),k=[p];function l(t,e,E,r,d,g){return a(),i("div",null,k)}const c=s(h,[["render",l]]);export{F as __pageData,c as default};
