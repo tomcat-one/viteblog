@@ -15,10 +15,10 @@ hero:
       link: /api-examples
 
 features:
-  - title:
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 求知
+    details: 红尘苍苍，为由书中才有黄金屋！
+  - title: 求真
+    details: 世间繁杂，唯有代码安人心！
+  - title: 求进
+    details: 道生一，一生二，二生三，三生万物！
 ---

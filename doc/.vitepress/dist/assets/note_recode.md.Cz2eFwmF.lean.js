@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./chunks/framework.BiaOK9tN.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/recode.md","filePath":"note/recode.md"}'),r={name:"note/recode.md"};function a(c,n,s,d,p,_){return o(),t("div")}const f=e(r,[["render",a]]);export{m as __pageData,f as default};

@@ -2,7 +2,8 @@
 .nuxt
 node_modules
 coverage
-
+dist
+/dist
 # local env files
 .env.local
 .env.*.local

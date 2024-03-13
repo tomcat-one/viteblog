@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a2 as n}from"./chunks/framework.BiaOK9tN.js";const F=JSON.parse('{"title":"构筑去屎体系","description":"","frontmatter":{},"headers":[],"relativePath":"note/构筑去屎体系.md","filePath":"note/构筑去屎体系.md"}'),h={name:"note/构筑去屎体系.md"},k=n("",43),p=[k];function t(l,E,e,r,d,g){return a(),i("div",null,p)}const c=s(h,[["render",t]]);export{F as __pageData,c as default};
