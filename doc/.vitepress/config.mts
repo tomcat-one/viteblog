@@ -16,8 +16,12 @@ export default defineConfig({
               { text: '从输入网址（URL）到页面加载的全过程', link: '/note/从输入网址（URL）到页面加载的全过程.md', },
             ]
           },
-          { text: 'css3', link: '/note/css3' },
-          { text: 'vue3', link: '/note/vue3' }
+          {
+            text: 'vue', items: [
+              { text: 'vue3新特性', link: '/note/vue/vue3/vue3版本特性.md', },
+            ]
+          },
+          { text: 'css', link: '/note/vue3' }
         ]
       },
       { text: '规范化', link: '/note/front-end-project/1.1代码校验和格式化.md' },
@@ -40,6 +44,12 @@ export default defineConfig({
         text: '前端工程化',
         items: [
           { text: '代码校验和格式化', link: '/note/front-end-project/1.1代码校验和格式化.md' },
+        ]
+      },
+      {
+        text: 'vue',
+        items: [
+          { text: 'vue3新特性', link: '/note/vue/vue3/vue3版本特性.md' },
         ]
       },
       {
