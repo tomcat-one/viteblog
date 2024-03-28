@@ -24,7 +24,7 @@ export default defineConfig({
           { text: 'css', link: '/note/vue3' }
         ]
       },
-      { text: '规范化', link: '/note/front-end-project/1.1代码校验和格式化.md' },
+      { text: '前端工程化', link: '/note/front-end-project/1.项目结构规范.md' },
       { text: '重构：扒屎日记', link: '/note/reconstitution/1.1为什么要扒屎.md' }
     ],
 
@@ -43,13 +43,18 @@ export default defineConfig({
       {
         text: '前端工程化',
         items: [
-          { text: '代码校验和格式化', link: '/note/front-end-project/1.1代码校验和格式化.md' },
+          { text: '1.项目结构规范', link: '/note/front-end-project/1.项目结构规范.md' },
+          { text: '2.命名规范', link: '/note/front-end-project/2.命名规范.md' },
+          { text: '3.代码格式规范', link: '/note/front-end-project/3.代码格式规范.md' },
+          { text: '4.环境变量配置', link: '/note/front-end-project/4.环境变量配置.md' },
+          { text: '5.请求接口api配置', link: '/note/front-end-project/5.请求接口api配置.md' },
         ]
       },
       {
         text: 'vue',
         items: [
           { text: 'vue3新特性', link: '/note/vue/vue3/vue3版本特性.md' },
+          { text: '手写一个vue3', link: '/note/vue/vue3/vue3.md' },
         ]
       },
       {
