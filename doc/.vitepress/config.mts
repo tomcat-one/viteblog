@@ -45,9 +45,11 @@ export default defineConfig({
         items: [
           { text: '1.项目结构规范', link: '/note/front-end-project/1.项目结构规范.md' },
           { text: '2.命名规范', link: '/note/front-end-project/2.命名规范.md' },
-          { text: '3.代码格式规范', link: '/note/front-end-project/3.代码格式规范.md' },
-          { text: '4.环境变量配置', link: '/note/front-end-project/4.环境变量配置.md' },
-          { text: '5.请求接口api配置', link: '/note/front-end-project/5.请求接口api配置.md' },
+          { text: '3.git提交规范', link: '/note/front-end-project/4.git代码格式规范.md' },
+          { text: '4.代码格式规范', link: '/note/front-end-project/3.代码格式规范.md' },
+          { text: '5.git提交和代码规范配合', link: '/note/front-end-project/4.git提交和代码规范.md' },
+          { text: '6.环境变量配置', link: '/note/front-end-project/4.环境变量配置.md' },
+          { text: '7.请求接口api配置', link: '/note/front-end-project/5.请求接口api配置.md' },
         ]
       },
       {
