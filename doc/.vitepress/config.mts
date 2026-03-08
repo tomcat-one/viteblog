@@ -1,80 +1,139 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "waywordcode",
   description: "一个人博客",
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
+      { text: "首页", link: "/" },
       {
-        text: '前端笔记',
+        text: "前端笔记",
         items: [
           {
-            text: '杂记',
+            text: "杂记",
             items: [
-              { text: '函数和函数参数的理解', link: '/note/函数和函数参数的理解.md', },
-              { text: '从输入网址（URL）到页面加载的全过程', link: '/note/从输入网址（URL）到页面加载的全过程.md', },
-            ]
+              {
+                text: "函数和函数参数的理解",
+                link: "/note/函数和函数参数的理解.md",
+              },
+              {
+                text: "从输入网址（URL）到页面加载的全过程",
+                link: "/note/从输入网址（URL）到页面加载的全过程.md",
+              },
+            ],
           },
           {
-            text: 'vue', items: [
-              { text: 'vue3新特性', link: '/note/vue/vue3/vue3版本特性.md', },
-            ]
+            text: "vue",
+            items: [
+              { text: "vue3新特性", link: "/note/vue/vue3/vue3版本特性.md" },
+            ],
           },
-          { text: 'css', link: '/note/vue3' }
-        ]
+          { text: "css", link: "/note/vue3" },
+        ],
       },
-      { text: '前端工程化', link: '/note/front-end-project/1.项目结构规范.md' },
-      { text: '重构：扒屎日记', link: '/note/reconstitution/1.1为什么要扒屎.md' }
+      { text: "前端工程化", link: "/note/front-end-project/1.项目结构规范.md" },
+      {
+        text: "重构：扒屎日记",
+        link: "/note/reconstitution/1.1为什么要扒屎.md",
+      },
+      {
+        text: "langchain智能体",
+        link: "/note/langchain/1.langchain-提示词模板.md",
+      },
     ],
 
     sidebar: [
       {
-        text: '重构：扒屎日记',
+        text: "重构：扒屎日记",
         items: [
-          { text: '1.为什么要扒屎', link: '/note/reconstitution/1.1为什么要扒屎.md' },
-          { text: '2.屎山养成记', link: '/note/reconstitution/1.2屎山养成记.md' },
-          { text: '3.如何当一个好的搅屎棍', link: '/note/reconstitution/1.3如何成为一个好的搅屎棍.md' },
-          { text: '4.构筑去屎体系', link: '/note/reconstitution/1.4构筑去屎体系.md' },
-          { text: '5.实战:教你如何扒屎', link: '/note/reconstitution/1.5教你如何扒屎.md' }
-
-        ]
+          {
+            text: "1.为什么要扒屎",
+            link: "/note/reconstitution/1.1为什么要扒屎.md",
+          },
+          {
+            text: "2.屎山养成记",
+            link: "/note/reconstitution/1.2屎山养成记.md",
+          },
+          {
+            text: "3.如何当一个好的搅屎棍",
+            link: "/note/reconstitution/1.3如何成为一个好的搅屎棍.md",
+          },
+          {
+            text: "4.构筑去屎体系",
+            link: "/note/reconstitution/1.4构筑去屎体系.md",
+          },
+          {
+            text: "5.实战:教你如何扒屎",
+            link: "/note/reconstitution/1.5教你如何扒屎.md",
+          },
+        ],
       },
       {
-        text: '前端工程化',
+        text: "langchain智能体",
         items: [
-          { text: '1.项目结构规范', link: '/note/front-end-project/1.项目结构规范.md' },
-          { text: '2.命名规范', link: '/note/front-end-project/2.命名规范.md' },
-          { text: '3.git提交规范', link: '/note/front-end-project/4.git代码格式规范.md' },
-          { text: '4.代码格式规范', link: '/note/front-end-project/3.代码格式规范.md' },
-          { text: '5.git提交和代码规范配合', link: '/note/front-end-project/4.git提交和代码规范.md' },
-          { text: '6.环境变量配置', link: '/note/front-end-project/4.环境变量配置.md' },
-          { text: '7.请求接口api配置', link: '/note/front-end-project/5.请求接口api配置.md' },
-        ]
+          {
+            text: "langchain-提示词模板",
+            link: "/note/langchain/1.langchain-提示词模板.md",
+          },
+          {
+            text: "langchain-示例选择器",
+            link: "/note/langchain/2.langchain-示例选择器.md",
+          },
+        ],
       },
       {
-        text: 'vue',
+        text: "前端工程化",
         items: [
-          { text: 'vue3新特性', link: '/note/vue/vue3/vue3版本特性.md' },
-          { text: '手写一个vue3', link: '/note/vue/vue3/vue3.md' },
-        ]
+          {
+            text: "1.项目结构规范",
+            link: "/note/front-end-project/1.项目结构规范.md",
+          },
+          { text: "2.命名规范", link: "/note/front-end-project/2.命名规范.md" },
+          {
+            text: "3.git提交规范",
+            link: "/note/front-end-project/4.git代码格式规范.md",
+          },
+          {
+            text: "4.代码格式规范",
+            link: "/note/front-end-project/3.代码格式规范.md",
+          },
+          {
+            text: "5.git提交和代码规范配合",
+            link: "/note/front-end-project/4.git提交和代码规范.md",
+          },
+          {
+            text: "6.环境变量配置",
+            link: "/note/front-end-project/4.环境变量配置.md",
+          },
+          {
+            text: "7.请求接口api配置",
+            link: "/note/front-end-project/5.请求接口api配置.md",
+          },
+        ],
       },
       {
-        text: '杂记',
+        text: "vue",
         items: [
-          { text: '函数和函数参数的理解', link: '/note/函数和函数参数的理解.md' },
-          { text: '从输入网址（URL）到页面加载的全过程', link: '/note/从输入网址（URL）到页面加载的全过程.md' },
-        ]
-      }
+          { text: "vue3新特性", link: "/note/vue/vue3/vue3版本特性.md" },
+          { text: "手写一个vue3", link: "/note/vue/vue3/vue3.md" },
+        ],
+      },
+      {
+        text: "杂记",
+        items: [
+          {
+            text: "函数和函数参数的理解",
+            link: "/note/函数和函数参数的理解.md",
+          },
+          {
+            text: "从输入网址（URL）到页面加载的全过程",
+            link: "/note/从输入网址（URL）到页面加载的全过程.md",
+          },
+        ],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/tomcat-one' }
-    ]
+    socialLinks: [{ icon: "github", link: "https://github.com/tomcat-one" }],
   },
-  head: [
-      [
-        'link',{ rel: 'icon', href: '/favicon.ico' }
-      ]
-    ],
-})
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+});
